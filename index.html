@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+    width: 100vw;
+}
+
+.headpath {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+.about:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+.blog:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+.Contact:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+.first {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    color: goldenrod;
+    gap: 10px;
+    margin-right: 30px;
+}
+
+.first>div {
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    color: goldenrod;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.main {
+    width: 100vw;
+}
+
+.head1 {
+    text-align: center;
+    padding: 2% 10%;
+}
+
+h3 {
+    color: goldenrod;
+}
+
+.nav {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.nav1 {
+    width: 100%;
+}
+
+h4 {
+    color: goldenrod;
+}
+
+.nav-box {
+    text-align: center;
+    padding: 10px;
+    width: 320px;
+}
+
+.details {
+    border: 2px solid;
+    width: 140px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-size: 15px;
+    background-color: goldenrod;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.para-read {
+    border: 2px solid;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    background-color: goldenrod;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.section3 {
+    text-align: center;
+}
+
+.image {
+    width: 70vw;
+    margin-bottom: 20px;
+
+}
+
+.head {
+    padding: 0 10px;
+}
+
+.e1 {
+    row-gap: 5%;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.section4 {
+    background-image: url(./classic-pattern-bg.png);
+    color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+.section4-box {
+    width: 280px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 2%;
+}
+
+.md {
+    background-color: aliceblue;
+    color: black;
+    padding: 10%;
+}
+
+.mn {
+    border: 2px solid;
+    width: 9vw;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    color: black;
+    border-radius: 2vw;
+}
+.box2 {
+    text-align: center;
+}
+.box2 a {
+   margin-left: 40px;
+}
+.box3 p {
+    padding: 5%;
+}
+.nr {
+    width: 10vw;
+    height: 9vh;
+}
+.box5 {
+    display: grid;
+    grid-template-columns: 7vw 7vw 7vw;
+    padding: 0 50px;
+}
+.box5~p {
+    margin-top: 5%;
+}
+
+.section4-box h1 {
+    margin-left: 50px;
+    color: goldenrod;
+}
+
+.section4-box p {
+    margin-left: 50px;
+}
+
+.section4-box h4 {
+    margin-left: 50px;
+}
+.mn1 {
+    border: 2px solid;
+    width: 6vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    color: black;
+    border-radius: 1vw;
+}
+
+@media screen and (min-width:320px) and (max-width:370px) {
+    .main {
+        text-align: center;
+    }
+
+    .para-read1 {
+        text-align: center;
+    }
+
+    .section4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nr {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (min-width:371px) and (max-width:426px) {
+    .main {
+        text-align: center;
+    }
+
+    .para-read1 {
+        margin-left: 140px;
+    }
+
+    .section4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nr {
+        margin-left: 60px;
+    }
+}
+@media screen and (min-width:427px) and (max-width:769px) {
+    .section1 .header {
+        margin-left: 50px;
+    }
+    .head-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section3-last {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .para-read1 {
+        margin-left: 310px;
+    }
+
+    .set1 {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .set2 {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .set3 {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .kumar {
+        padding-left: 20px;
+    }
+    .section-h {
+        margin-right: 82%;
+    }
+    .section4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:770px) and (max-width:1025px) {
+    .section1 .header {
+        margin-left: 50px;
+    }
+
+    .image {
+        width: 40%;
+        margin-right: 530px;
+    }
+
+    .part1 h4 {
+        text-align: left;
+        padding-left: 60px;
+    }
+
+    .para-t {
+        text-align: left;
+        width: 50%;
+        padding: 0 60px;
+
+    }
+
+    .head-box {
+        display: flex;
+        margin-left: 500px;
+        margin-top: -670px;
+    }
+
+    .section-h {
+        margin-left: 500px;
+    }
+
+    .links {
+        padding-left: 10px;
+        margin-top: -1px;
+    }
+
+    .set1 {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 490px;
+
+    }
+
+    .set2 {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 490px;
+    }
+
+    .set3 {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 490px;
+    }
+
+    .kumar {
+        padding: 0 20px;
+    }
+
+    .para-read1 {
+        margin-left: 14%;
+    }
+}
+
+@media screen and (min-width:1026px) {
+    .section1 .header {
+        margin-left: 50px;
+
+    }
+
+    .image {
+        width: 45%;
+        margin-right: 48%;
+    }
+
+    .part1 h4 {
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    .para-t {
+        text-align: left;
+        width: 50%;
+        padding: 0 60px;
+    }
+
+    .head-box {
+        display: flex;
+        margin-left: 55%;
+        margin-top: -670px;
+    }
+
+    .section-h {
+        margin-left: 50%;
+    }
+
+    .links {
+        padding-left: 20px;
+        margin-top: -1px;
+    }
+
+    .set1 {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 50%;
+    }
+
+    .set2 {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 50%;
+    }
+
+    .set3 {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 50%;
+    }
+
+    .kumar {
+        padding: 0 20px;
+    }
+
+    .para-read1 {
+        margin-left: 18%;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="section1">
+            <div class="headpath">
+                <div class="header">Classic</div>
+                <div class="first">
+                    <div class="home">Home</div>
+                    <div class="about">About</div>
+                    <div class="blog">Blog</div>
+                    <div class="Contact">Contact</div>
+                </div>
+            </div>
+            <img class="main" src="./tm-home-img.jpg">
+            <div class="head1">
+                <h3>Introduction</h3>
+                <p>Suspendisse ut magna vel velit cursus tempor ut nec nunc. Mauris vehicula, massa.</p>
+            </div>
+            <div class="section2">
+                <div class="nav">
+                    <div class="nav-box">
+                        <img class="nav1" src="./tm-img-310x180-1.jpg">
+                        <h4>Lorem ipsum dolor #1</h4>
+                        <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque
+                            porttitor pharetra</p>
+                        <p class="details">Detail</p>
+                    </div>
+                    <div class="nav-box">
+                        <img class="nav1" src="./tm-img-310x180-2.jpg">
+                        <h4>Lorem ipsum dolor #1</h4>
+                        <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque
+                            porttitor pharetra</p>
+                        <p class="details">Read MOre</p>
+                    </div>
+                    <div class="nav-box">
+                        <img class="nav1" src="./tm-img-310x180-3.jpg">
+                        <h4>Lorem ipsum dolor #1</h4>
+                        <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque
+                            porttitor pharetra</p>
+                        <p class="details">Detail</p>
+                    </div>
+                    <div class="nav-box">
+                        <img class="nav1" src="./tm-img-310x180-4.jpg">
+                        <h4>Lorem ipsum dolor #1</h4>
+                        <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque
+                            porttitor pharetra</p>
+                        <p class="details">Read more</p>
+                    </div>
+                </div>
+                <div class="section3">
+                    <div class="section3-nxt">
+                        <div class="part1">
+                            <h4>Pellentesque fermentum mauris et posuere</h4>
+                            <p class="para-t">Vivamus accumsan blandit ligula. Sed lobortis efficitur sapien</p>
+                            <img class="image" src="./tm-img-660x330-1.jpg">
+                            <p class="para-t">Donec tempor lobortis tortor, in feugiat massa facilisis sed. Ut dignissim
+                                viverra pretium. In eu justo maximus turpis feugiat finibus scelerisque nec eros. Cras
+                                nec lectus tempor nibh vestibulum eleifend et ac elit.
+                            </p>
+                            <p class="para-t">Morbi vel pharetra massa, non iaculis tortor. Nulla porttitor tincidunt
+                                felis et feugiat. Vivamus fermentum ligula justo, sit amet blandit nisl volutpat id.
+                                Fusce sagittis ultricies felis, non luctus mauris lacinia quis.
+                            </p>
+                            <p class="para-t">Ut fringilla lacus ac tempor ullamcorper. Mauris iaculis placerat ex et
+                                mattis. Mauris id vulputate lectus, id fermentum sapien.</p>
+                            <p class="para-read para-read1">Read more</p>
+                        </div>
+                        <div class="head-box">
+                            <div class="head">
+                                <h4>Categories</h4>
+                                <a href="">Tincidunt non faucibus placerat</a><br><br>
+                                <a href="">Vestibulum tempor ac lectus</a><br><br>
+                                <a href="">Fusce non turpis.euismod</a><br><br>
+                                <a href="">Nam In augue.consectetur</a><br><br>
+                                <a href="">Text Link Color #006699</a>
+                            </div>
+                            <div class="links">
+                                <h4>Useful links</h4>
+                                <a href="">Suspendisse sed dui nulla</a><br><br>
+                                <a href="">Lorem ipsum dolor sit</a><br><br>
+                                <a href="">Duiss nec purus et eros</a><br><br>
+                                <a href="">Etiam pulvinar et ligula sed</a><br><br>
+                                <a href="">Proin egestas eu felisetlaculis</a><br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section3-last">
+                    <h4 class="section-h">Related Posts</h4>
+                    <div class="set1">
+                        <img class="e1" src="./tm-img-240x120-1.jpg">
+                        <div class="kumar">
+                            <h4>Lorem Ipsum dolor</h4>
+                            <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque
+                                porttitor pharetra</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="set2">
+                        <img class="e1" src="./tm-img-240x120-2.jpg">
+                        <div class="kumar">
+                            <h4>Lorem Ipsum dolor</h4>
+                            <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque
+                                porttitor pharetra</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="set3">
+                        <img class="e1" src="./tm-img-240x120-3.jpg">
+                        <div class="kumar">
+                            <h4>Lorem Ipsum dolor</h4>
+                            <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque
+                                porttitor pharetra</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section4">
+                <div class="section4-box">
+                    <div class="box1">
+                        <h1>Proin eu posuere felis</h1>
+                        <p class="md">Classic is free HTML CSS website template provided by templatemo for everyone.
+                            Feel free to use it.
+                            Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor
+                            pharetra.
+                        </p>
+                        <h4>Danny Egg (Executive)</h4>
+                    </div>
+                </div>
+                <div class="section4-box">
+                    <div class="box2">
+                        <h1>Nulla tortor dolor</h1>
+                        <a href="">Tincidunt non faucibus</a><br>
+                        <a href=""> Vestibulum tempor</a><br>
+                        <a href="">Fusce non turpis euismod</a><br>
+                        <a href="">Lorem ipsum dolor sit</a><br>
+                        <a href="">Nam in augue consectetur</a><br>
+                        <a href="">Text Link Color #CCCC66</a>
+                    </div>
+                </div>
+                <div class="section4-box">
+                    <div class="box3">
+                        <h1>Etiam mollis ornare</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, optio veniam! Ut, facere.
+                            Praesentium eius beatae, consequatur amet assumenda, aliquid eum quis soluta, reprehenderit
+                            deleniti qui aperiam voluptatum aut ratione.</p>
+                        <hr>
+                        <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor
+                            pharetra.</p>
+                        <hr>
+                        <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor
+                            pharetra.</p>
+                    </div>
+                </div>
+                <div class="section4-box">
+                    <div class="box4">
+                        <h1>Fusce non turpis</h1>
+                        <div class="box5">
+                            <img class="nr" src="./tm-img-100x100-1.jpg">
+                            <img class="nr" src="./tm-img-100x100-2.jpg">
+                            <img class="nr" src="./tm-img-100x100-3.jpg">
+                            <img class="nr" src="./tm-img-100x100-4.jpg">
+                            <img class="nr" src="./tm-img-100x100-5.jpg">
+                            <img class="nr" src="./tm-img-1010x336-1.jpg">
+                        </div>
+                        <p>Curabitur dui massa, aliquam quis mi sed, tempor vulputate tellus. Sed vestibulum non neque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+</body>
+
+</html>

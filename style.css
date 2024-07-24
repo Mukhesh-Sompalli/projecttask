@@ -1,0 +1,449 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+    width: 100vw;
+}
+
+.headpath {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+.about:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+.blog:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+.Contact:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+.first {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    color: goldenrod;
+    gap: 10px;
+    margin-right: 30px;
+}
+
+.first>div {
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    color: goldenrod;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.main {
+    width: 100vw;
+}
+
+.head1 {
+    text-align: center;
+    padding: 2% 10%;
+}
+
+h3 {
+    color: goldenrod;
+}
+
+.nav {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.nav1 {
+    width: 100%;
+}
+
+h4 {
+    color: goldenrod;
+}
+
+.nav-box {
+    text-align: center;
+    padding: 10px;
+    width: 320px;
+}
+
+.details {
+    border: 2px solid;
+    width: 140px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-size: 15px;
+    background-color: goldenrod;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.para-read {
+    border: 2px solid;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    background-color: goldenrod;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.section3 {
+    text-align: center;
+}
+
+.image {
+    width: 70vw;
+    margin-bottom: 20px;
+
+}
+
+.head {
+    padding: 0 10px;
+}
+
+.e1 {
+    row-gap: 5%;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.section4 {
+    background-image: url(./classic-pattern-bg.png);
+    color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+.section4-box {
+    width: 280px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 2%;
+}
+
+.md {
+    background-color: aliceblue;
+    color: black;
+    padding: 10%;
+}
+
+.mn {
+    border: 2px solid;
+    width: 9vw;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    color: black;
+    border-radius: 2vw;
+}
+.box2 {
+    text-align: center;
+}
+.box2 a {
+   margin-left: 40px;
+}
+.box3 p {
+    padding: 5%;
+}
+.nr {
+    width: 10vw;
+    height: 9vh;
+}
+.box5 {
+    display: grid;
+    grid-template-columns: 7vw 7vw 7vw;
+    padding: 0 50px;
+}
+.box5~p {
+    margin-top: 5%;
+}
+
+.section4-box h1 {
+    margin-left: 50px;
+    color: goldenrod;
+}
+
+.section4-box p {
+    margin-left: 50px;
+}
+
+.section4-box h4 {
+    margin-left: 50px;
+}
+
+
+
+.mn1 {
+    border: 2px solid;
+    width: 6vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    color: black;
+    border-radius: 1vw;
+}
+
+@media screen and (min-width:320px) and (max-width:370px) {
+    .main {
+        text-align: center;
+    }
+
+    .para-read1 {
+        text-align: center;
+    }
+
+    .section4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nr {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (min-width:371px) and (max-width:426px) {
+    .main {
+        text-align: center;
+    }
+
+    .para-read1 {
+        margin-left: 140px;
+    }
+
+    .section4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nr {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (min-width:427px) and (max-width:769px) {
+    .section1 .header {
+        margin-left: 50px;
+    }
+
+    .head-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section3-last {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .para-read1 {
+        margin-left: 310px;
+    }
+
+    .set1 {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .set2 {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .set3 {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .kumar {
+        padding-left: 20px;
+    }
+    .section-h {
+        margin-right: 82%;
+    }
+
+    .section4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (min-width:770px) and (max-width:1025px) {
+    .section1 .header {
+        margin-left: 50px;
+    }
+
+    .image {
+        width: 40%;
+        margin-right: 530px;
+    }
+
+    .part1 h4 {
+        text-align: left;
+        padding-left: 60px;
+    }
+
+    .para-t {
+        text-align: left;
+        width: 50%;
+        padding: 0 60px;
+
+    }
+
+    .head-box {
+        display: flex;
+        margin-left: 500px;
+        margin-top: -670px;
+    }
+
+    .section-h {
+        margin-left: 500px;
+    }
+
+    .links {
+        padding-left: 10px;
+        margin-top: -1px;
+    }
+
+    .set1 {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 490px;
+
+    }
+
+    .set2 {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 490px;
+    }
+
+    .set3 {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 490px;
+    }
+
+    .kumar {
+        padding: 0 20px;
+    }
+
+    .para-read1 {
+        margin-left: 14%;
+    }
+}
+
+@media screen and (min-width:1026px) {
+    .section1 .header {
+        margin-left: 50px;
+
+    }
+
+    .image {
+        width: 45%;
+        margin-right: 48%;
+    }
+
+    .part1 h4 {
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    .para-t {
+        text-align: left;
+        width: 50%;
+        padding: 0 60px;
+    }
+
+    .head-box {
+        display: flex;
+        margin-left: 55%;
+        margin-top: -670px;
+    }
+
+    .section-h {
+        margin-left: 50%;
+    }
+
+    .links {
+        padding-left: 20px;
+        margin-top: -1px;
+    }
+
+    .set1 {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 50%;
+    }
+
+    .set2 {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 50%;
+    }
+
+    .set3 {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 50%;
+    }
+
+    .kumar {
+        padding: 0 20px;
+    }
+
+    .para-read1 {
+        margin-left: 18%;
+    }
+}
